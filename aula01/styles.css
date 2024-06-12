@@ -1,0 +1,44 @@
+body {
+    color: #d8b2d1;
+    background-color: #545a2c;
+}
+
+div {
+ 
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        font-family: "Courier New";
+       
+}
+
+
+
+.sapinho {
+    max-width: 50%;
+    animation: sapinho-cute 3s linear 0s infinite alternate none;
+}
+
+@keyframes sapinho-cute {
+	50% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+
+h1 {
+    animation-name: gradient;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    from {color: red;}
+    to {color: cyan;}
+  }
+
