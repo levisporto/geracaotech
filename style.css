@@ -1,0 +1,32 @@
+
+
+h1 {
+   color: whitesmoke;
+   text-align: center;
+}
+
+.myLogo {
+    max-width: 60%;
+}
+
+body{
+    background-color: grey;
+}
+
+a{
+    color: whitesmoke !important  
+}
+
+
+
+.formBox{
+    margin: auto;
+    width: 60%;
+    
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #22a922 !important;
+    --bs-btn-border-color: none 
+    
+}
