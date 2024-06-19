@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    background-image: url(imagens/bg.png);
+    /* descomente para aplicar uma imagem sem repetição */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+header{
+   background-color:  #1E1F22;
+   text-align: center;
+   padding: 15px;
+}
+
+.logo {
+    width: 250px;
+}
+
+:root {
+    --corBotoes: orangered;
+    --myFont: "Playwrite FR Moderne";
+   
+   
+}
+
+nav a{
+    
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: var(--myFont);
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--myFont);
+    font-size:larger;
+}
+
+h2,b {
+    color: orange;
+    text-align: center;
+    font-family: var(--myFont);
+    font-size: medium;
+}
+
+p {
+    color: white;
+}
+
+.hamburger {
+    height: 400px;
+}
+
+.card-img-top {
+    width: 50%;
+}
+
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.button{
+     
+        background-color: var(--corBotoes); 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 50px
+      
+}
+
+
+.myDiv01 {
+    padding: 3%;
+    line-height: 400%;
+    }
+
+.myDiv02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #1E1F22;
+width: 850px;
+height: 380px;
+margin: 0px auto;
+border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+.textBox {
+    padding-bottom: 10%;
+}
+
+

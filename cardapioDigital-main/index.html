@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital BBQ BRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagens/logo.png" alt="logo BBQ BRO">
+        <nav>
+            <a href="#hamb">Hamburgueres</a>
+            <a href="#acomp">Acompanhamentos</a>
+            <a href="#beb">Bebidas</a>
+            <a class="" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              Cardápio
+              </a>
+              
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header mx-auto">
+                  <h3 class="offcanvas-title justify-content" id="offcanvasExampleLabel">Meu Carrinho</h3>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body mx-auto">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="imagens/burger01.png" class="card-img-top" alt="...">
+                        
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">Clássico Angus Burger</h5>
+                          <p class="card-text bg-warning">Total: R$ 22,50</p>
+                          <button type="button" class="btn btn-warning btn-sm">+</button>
+                          
+                          
+                          <div class="input-group flex-nowrap "> 
+                            <input type="text" class="form-control " aria-label="Username" aria-describedby="addon-wrapping">
+                          </div>
+
+                          <button type="button" class="btn btn-warning btn-sm">-</button>
+
+                         
+                        </div>
+                      </div>
+                  
+                </div>
+              </div>
+            
+
+
+        </nav>
+    </header>
+
+    <main>
+<div class = myDiv01>
+    <h1>CARDÁPIO DIGITAL</h1>
+    <h2>HAMBURGUERES</h2>
+    
+</div>
+<div class = myDiv02> 
+    <div class="container">
+        <div class="imgBox">
+            <img src="imagens/burger01.png" class="hamburger" alt="Hamburger"></div>
+       <div class="title"><div class="title"><b>Clássico Angus Burger - R$22,50</b> </div>  
+       <div class="textBox"><p>Delicie-se com o nosso Hambúrguer Clássico, feito com um suculento hambúrguer de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial do nosso molho secreto. Perfeito para saciar sua fome!</div>
+       <div class="buttonBox"> <p class = button>Pedir </p></p></div> </div>
+      
+       
+       
+        
+    </div>
+
+
+</div>
+
+
+ 
+
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
