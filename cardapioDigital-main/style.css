@@ -35,6 +35,12 @@ header{
    
 }
 
+.offcanvas {
+    
+    background-color: grey
+   
+}
+
 nav a{
     
     color: white;
